@@ -1,0 +1,1186 @@
+<html><head>
+<meta charset="UTF-8">
+  <style>
+@charset "UTF-8";
+
+:root {
+	--main-bg-color: white;
+	--main-color: black;
+	--alternate-bg-color: #efefef;
+	--alternate-color: #222222;
+	--main-border-color: #BBBBBB;
+	  --link-color: #627EC9;
+  }
+
+  @media (prefers-color-scheme: dark) {
+	:root {
+	  --main-bg-color: #222222;
+	  --main-color: #53C8D6;
+	  --alternate-bg-color: #444444;
+	  --alternate-color: #cccccc;
+	  --main-border-color: #AAAAAA;
+		--link-color: #627EC9;
+	}
+  }
+
+html {
+  font-size: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+}
+
+@media (max-device-width: 700px) {}
+
+@media (min-device-width: 701px) {
+  body {
+	margin: auto;
+	max-width: 600px;
+  }
+}
+
+blockquote {
+  font-style: italic;
+  margin: 1.5em 2em;
+  padding: 1em;
+  background-color: var(--alternate-bg-color);
+  color: var(--alternate-color);
+}
+
+a {
+  color: var(--link-color);
+}
+pre {
+  width: 100%;
+  background-color: var(--alternate-bg-color);
+  margin: 1em 0;
+  white-space: pre-wrap;
+}
+
+code {
+  background-color: var(--alternate-bg-color);
+  color: var(--alternate-color);
+  font-family: Menlo, Courier, sans-serif;
+  padding: 2px 3px;
+  white-space: pre-wrap;
+}
+
+strong {
+	color: white;
+  }
+
+  h1 {
+	color: orange;
+  }
+
+table {
+  margin: 1.5em 0;
+  border: 1px solid var(--main-border-color);
+  border-collapse: collapse;
+}
+
+th {
+  padding: .25em .5em;
+  background: var(--alternate-bg-color);
+  border: 1px solid var(--main-border-color);
+}
+
+td {
+  padding: .25em .5em;
+  border: 1px solid var(--main-border-color);
+}
+
+img {
+  max-width: 90%;
+}
+
+form {
+   padding: 1em;
+}
+
+.verticalLine {
+	border-left: 2px solid orange;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	font-style: italic;
+  }
+</style>
+
+</head><body><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1>Drafts Information</h1>
+
+<ul>
+<li><strong>Version:</strong> 26.2.4</li>
+<li><strong>Pro Subscription Enabled:</strong> true</li>
+<li><strong>Idle Disabled:</strong> false</li>
+<li><strong>Draft List Visible:</strong> true</li>
+<li><strong>Action List Visible:</strong> true</li>
+<li><strong>Theme:</strong> dark</li>
+<li><strong>Drafts in Inbox:</strong> 1272</li>
+<li><strong>Drafts in Archive:</strong> 58</li>
+<li><strong>Drafts in Flagged:</strong> 22</li>
+<li><strong>Drafts in Trash:</strong> 0</li>
+</ul>
+
+<hr />
+
+<h1>Editor</h1>
+
+<ul>
+<li><strong>Focus Mode Enabled:</strong> true</li>
+<li><strong>Link Mode Enabled:</strong> false</li>
+<li><strong>Typewriter Scrolling Enabled:</strong> true</li>
+<li><strong>Editor Preferred Tab String (Text):</strong> <code>&quot;	&quot;</code></li>
+<li><strong>Editor Preferred Tab String (URL Encoded):</strong> %09</li>
+</ul>
+
+<hr />
+
+<h1>Workspaces</h1>
+
+<h2>Indigo</h2>
+
+<ul>
+<li><strong>Query String:</strong></li>
+<li><strong>Tag Filter:</strong> indigo</li>
+<li><strong>Require All Tags:</strong> true</li>
+<li><strong>Start Date Field:</strong> created</li>
+<li><strong>Start Date Type:</strong> relative</li>
+<li><strong>Start Date Date (&gt;=):</strong> Mon Mar 01 2021 13:23:34 GMT-0500 (EST)</li>
+<li><strong>Start Date Days (&gt;=):</strong> 0</li>
+<li><strong>End Date Field:</strong> created</li>
+<li><strong>End Date Type:</strong> relative</li>
+<li><strong>End Date Date (&lt;=):</strong> Mon Mar 01 2021 13:23:34 GMT-0500 (EST)</li>
+<li><strong>End Date Days (&lt;=):</strong> 0</li>
+<li><strong>Inbox Includes Flagged:</strong> true</li>
+<li><strong>Archive Includes Flagged:</strong> true</li>
+<li><strong>Load Folder:</strong> unassigned</li>
+<li><strong>Show Last Action for Draft in List:</strong> true</li>
+<li><strong>Show Body Prfeview for Draft in List:</strong> true</li>
+<li><strong>Show Tags for Draft in List:</strong> true</li>
+</ul>
+
+<h2>Today</h2>
+
+<ul>
+<li><strong>Query String:</strong></li>
+<li><strong>Tag Filter:</strong></li>
+<li><strong>Require All Tags:</strong> true</li>
+<li><strong>Start Date Field:</strong> modified</li>
+<li><strong>Start Date Type:</strong> relative</li>
+<li><strong>Start Date Date (&gt;=):</strong> Thu Aug 13 2020 14:08:43 GMT-0400 (EDT)</li>
+<li><strong>Start Date Days (&gt;=):</strong> 0</li>
+<li><strong>End Date Field:</strong> created</li>
+<li><strong>End Date Type:</strong> relative</li>
+<li><strong>End Date Date (&lt;=):</strong> Thu Aug 13 2020 14:08:43 GMT-0400 (EDT)</li>
+<li><strong>End Date Days (&lt;=):</strong> 0</li>
+<li><strong>Inbox Includes Flagged:</strong> true</li>
+<li><strong>Archive Includes Flagged:</strong> true</li>
+<li><strong>Load Folder:</strong> inbox</li>
+<li><strong>Show Last Action for Draft in List:</strong> true</li>
+<li><strong>Show Body Prfeview for Draft in List:</strong> true</li>
+<li><strong>Show Tags for Draft in List:</strong> true</li>
+</ul>
+
+<h2>Gray</h2>
+
+<ul>
+<li><strong>Query String:</strong></li>
+<li><strong>Tag Filter:</strong> gray</li>
+<li><strong>Require All Tags:</strong> true</li>
+<li><strong>Start Date Field:</strong> created</li>
+<li><strong>Start Date Type:</strong> relative</li>
+<li><strong>Start Date Date (&gt;=):</strong> Mon Mar 01 2021 13:20:04 GMT-0500 (EST)</li>
+<li><strong>Start Date Days (&gt;=):</strong> 0</li>
+<li><strong>End Date Field:</strong> created</li>
+<li><strong>End Date Type:</strong> relative</li>
+<li><strong>End Date Date (&lt;=):</strong> Mon Mar 01 2021 13:20:04 GMT-0500 (EST)</li>
+<li><strong>End Date Days (&lt;=):</strong> 0</li>
+<li><strong>Inbox Includes Flagged:</strong> true</li>
+<li><strong>Archive Includes Flagged:</strong> true</li>
+<li><strong>Load Folder:</strong> unassigned</li>
+<li><strong>Show Last Action for Draft in List:</strong> true</li>
+<li><strong>Show Body Prfeview for Draft in List:</strong> true</li>
+<li><strong>Show Tags for Draft in List:</strong> true</li>
+</ul>
+
+<h2>Tagged</h2>
+
+<ul>
+<li><strong>Query String:</strong></li>
+<li><strong>Tag Filter:</strong> tagged</li>
+<li><strong>Require All Tags:</strong> true</li>
+<li><strong>Start Date Field:</strong> created</li>
+<li><strong>Start Date Type:</strong> relative</li>
+<li><strong>Start Date Date (&gt;=):</strong> Thu Apr 15 2021 07:26:59 GMT-0400 (EDT)</li>
+<li><strong>Start Date Days (&gt;=):</strong> 0</li>
+<li><strong>End Date Field:</strong> created</li>
+<li><strong>End Date Type:</strong> relative</li>
+<li><strong>End Date Date (&lt;=):</strong> Thu Apr 15 2021 07:26:59 GMT-0400 (EDT)</li>
+<li><strong>End Date Days (&lt;=):</strong> 0</li>
+<li><strong>Inbox Includes Flagged:</strong> true</li>
+<li><strong>Archive Includes Flagged:</strong> true</li>
+<li><strong>Load Folder:</strong> inbox</li>
+<li><strong>Show Last Action for Draft in List:</strong> true</li>
+<li><strong>Show Body Prfeview for Draft in List:</strong> true</li>
+<li><strong>Show Tags for Draft in List:</strong> true</li>
+</ul>
+
+<hr />
+
+<h1>Current Workspace</h1>
+
+<ul>
+<li><strong>Name:</strong></li>
+<li><strong>Query String:</strong></li>
+<li><strong>Tag Filter:</strong></li>
+<li><strong>Require All Tags:</strong> true</li>
+<li><strong>Start Date Field:</strong> created</li>
+<li><strong>Start Date Type:</strong> relative</li>
+<li><strong>Start Date Date (&gt;=):</strong> Sat Apr 24 2021 03:41:11 GMT-0400 (EDT)</li>
+<li><strong>Start Date Days (&gt;=):</strong> 0</li>
+<li><strong>End Date Field:</strong> created</li>
+<li><strong>End Date Type:</strong> relative</li>
+<li><strong>End Date Date (&lt;=):</strong> Sat Apr 24 2021 03:41:11 GMT-0400 (EDT)</li>
+<li><strong>End Date Days (&lt;=):</strong> 0</li>
+<li><strong>Inbox Includes Flagged:</strong> true</li>
+<li><strong>Archive Includes Flagged:</strong> true</li>
+<li><strong>Load Folder:</strong> unassigned</li>
+<li><strong>Show Last Action for Draft in List:</strong> true</li>
+<li><strong>Show Body Prfeview for Draft in List:</strong> true</li>
+<li><strong>Show Tags for Draft in List:</strong> true</li>
+</ul>
+
+<hr />
+
+<h1>Device Information</h1>
+
+<ul>
+<li><strong>Model:</strong> iPhone</li>
+<li><strong>OS Version:</strong> 14.4.2</li>
+<li><strong>System Name:</strong> iOS</li>
+<li><strong>Battery Level:</strong> 0.6600000262260437</li>
+</ul>
+
+<hr />
+
+<h1>Previews Listing</h1>
+
+<pre></pre>
+
+<hr />
+
+<h1>Scripts Listing</h1>
+
+<pre></pre>
+
+<hr />
+
+<h1>Templates Listing</h1>
+
+<pre></pre>
+
+<hr />
+
+<h1>Action Groups</h1>
+
+<ul>
+<li>(10 actions)</li>
+<li>Decode copy, save version (2 actions)</li>
+<li>(4 actions)</li>
+<li>Decode copy, save version (3 actions)</li>
+<li>Decode copy, save version (2 actions)</li>
+<li>Decode copy, save version (2 actions)</li>
+<li>Sync Reminders (7 actions)</li>
+<li>Dots (10 actions)</li>
+<li>Find Again (6 actions)</li>
+<li>Examples: Cross-Linking (9 actions)</li>
+<li>Link Helpers (4 actions)</li>
+<li>Link Helpers (4 actions)</li>
+<li>Actions (30 actions)</li>
+<li>Actions (30 actions)</li>
+<li>JS Scripting (40 actions)</li>
+<li>Search (10 actions)</li>
+<li>Keyboard-Numbers+ (19 actions)</li>
+<li>CSV (4 actions)</li>
+<li>Processing (7 actions)</li>
+<li>Markdown (12 actions)</li>
+<li>Draft Tools (9 actions)</li>
+<li>Apps (22 actions)</li>
+<li>Actions (8 actions)</li>
+<li>Draft Tools (7 actions)</li>
+<li>dateProcessing (10 actions)</li>
+<li>Syntax (10 actions)</li>
+<li>OneDrive (3 actions)</li>
+<li>JavaScript (18 actions)</li>
+<li>Action Scripting (25 actions)</li>
+<li>Actions-Apps (35 actions)</li>
+<li>Action Scripting (25 actions)</li>
+<li>Tools (15 actions)</li>
+<li>Basic (30 actions)</li>
+<li>Keyboard-Numbers+ (19 actions)</li>
+<li>JavaScript (18 actions)</li>
+<li>TaskPaper (9 actions)</li>
+<li>todoistQuickActionGroup (8 actions)</li>
+<li>Examples (Mac): AppleScript &amp; Shell Script (7 actions)</li>
+<li>Roam Research (3 actions)</li>
+<li>Examples (Mac): AppleScript &amp; Shell Script (7 actions)</li>
+<li>CSV (4 actions)</li>
+<li>Searches (13 actions)</li>
+</ul>
+
+<p>42 Action Groups Containing 520 Actions.</p>
+
+<hr />
+
+<h1>Actions</h1>
+
+<p>##</p>
+
+<ul>
+<li></li>
+<li>My Message Action</li>
+<li>My Email Action</li>
+<li>Bear Note with date and location</li>
+<li>Recon</li>
+<li>Locate in Google Maps</li>
+<li>Google Maps search</li>
+<li>Search in Maps</li>
+<li>Search Google Maps</li>
+<li>Append to Bear Journal +</li>
+</ul>
+
+<h2>Decode copy, save version</h2>
+
+<ul>
+<li>Save Version</li>
+<li>Decode&#8230; (copy) (copy)</li>
+</ul>
+
+<p>##</p>
+
+<ul>
+<li></li>
+<li>Airtable API</li>
+<li>ShellScript: Bash Example</li>
+<li>Dropbox to Drafts</li>
+</ul>
+
+<h2>Decode copy, save version</h2>
+
+<ul>
+<li>Save Version</li>
+<li>Decode&#8230; (copy) (copy)</li>
+<li>Meta Data &lt; &gt; Draft</li>
+</ul>
+
+<h2>Decode copy, save version</h2>
+
+<ul>
+<li>Save Version</li>
+<li>Decode&#8230; (copy) (copy)</li>
+</ul>
+
+<h2>Decode copy, save version</h2>
+
+<ul>
+<li>Save Version</li>
+<li>Decode&#8230; (copy) (copy)</li>
+</ul>
+
+<h2>Sync Reminders</h2>
+
+<ul>
+<li>One-Way Sync</li>
+<li><strong>Date Keywords:</strong></li>
+<li>Due Date</li>
+<li>Today</li>
+<li>Tomorrow</li>
+<li><strong>Priority Keywords:</strong></li>
+<li>Priority</li>
+<li>Important</li>
+<li></li>
+</ul>
+
+<h2>Dots</h2>
+
+<ul>
+<li>Gray</li>
+<li>Pink</li>
+<li>Red</li>
+<li>Orange</li>
+<li>Yellow</li>
+<li>Green</li>
+<li>Blue</li>
+<li>Indigo</li>
+<li>Violet</li>
+<li>Cyan</li>
+</ul>
+
+<h2>Find Again</h2>
+
+<ul>
+<li><strong>Code Library:</strong></li>
+<li>Find Again Library</li>
+<li>Clear Saved Data</li>
+<li><strong>Actions:</strong></li>
+<li>Find Next</li>
+<li>Find Previous</li>
+<li>Enter Selection For Find</li>
+<li>Show Find Window</li>
+</ul>
+
+<h2>Examples: Cross-Linking</h2>
+
+<ul>
+<li>Insert Link to Draft</li>
+<li>Select Back Links</li>
+<li>Search for Back Links</li>
+<li>Open Last Draft</li>
+<li>New Linked Draft</li>
+<li>Insert Workspace Link</li>
+<li>Setup Project</li>
+<li><strong>Publishing:</strong></li>
+<li>Transclude &gt; New Draft</li>
+<li>Transclude &gt; Preview</li>
+</ul>
+
+<h2>Link Helpers</h2>
+
+<ul>
+<li>Select Drafts to Link</li>
+<li>Copy Markdown Link</li>
+<li>Link to New Draft</li>
+<li>Find Draft to Link</li>
+</ul>
+
+<h2>Link Helpers</h2>
+
+<ul>
+<li>Select Drafts to Link</li>
+<li>Copy Markdown Link</li>
+<li>Link to New Draft</li>
+<li>Find Draft to Link</li>
+</ul>
+
+<h2>Actions</h2>
+
+<ul>
+<li>Clipboard mail share</li>
+<li></li>
+<li>Reminder</li>
+<li>Drive</li>
+<li>FileManager</li>
+<li><strong>:</strong></li>
+<li>URL</li>
+<li>Callback url</li>
+<li>Run bear</li>
+<li>File txt</li>
+<li>Google drive</li>
+<li>Reminder</li>
+<li>Clipboard mail share</li>
+<li></li>
+<li></li>
+<li>Shortcut</li>
+<li>Clipboard mail share (copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>Reminder (copy)</li>
+<li>Drive (copy)</li>
+<li>(copy)</li>
+<li>Mark Location</li>
+<li>Mark Location</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+</ul>
+
+<h2>Actions</h2>
+
+<ul>
+<li>Clipboard mail share</li>
+<li></li>
+<li>Reminder</li>
+<li>Drive</li>
+<li>FileManager</li>
+<li><strong>:</strong></li>
+<li>URL</li>
+<li>Callback url</li>
+<li>Run bear</li>
+<li>File txt</li>
+<li>Google drive</li>
+<li>Reminder</li>
+<li>Clipboard mail share</li>
+<li></li>
+<li></li>
+<li>Shortcut</li>
+<li>Clipboard mail share (copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>Reminder (copy)</li>
+<li>Drive (copy)</li>
+<li>(copy)</li>
+<li>Mark Location</li>
+<li>Mark Location</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+<li>(copy)</li>
+</ul>
+
+<h2>JS Scripting</h2>
+
+<ul>
+<li>New Code Draft</li>
+<li>Debug</li>
+<li>Add debug Info</li>
+<li>Run Editor JS</li>
+<li>JS Comment</li>
+<li>JS Indent</li>
+<li>JS Outdent</li>
+<li>function</li>
+<li>let</li>
+<li>Smart Equal</li>
+<li>Semicolon</li>
+<li>Smart Braces</li>
+<li>Smart Plain Quotes</li>
+<li>Smart Parentheses</li>
+<li>Smart Brackets</li>
+<li>insert.js function()</li>
+<li>Save to Script Library&#8230;</li>
+<li>if</li>
+<li>else if</li>
+<li>else</li>
+<li>for of</li>
+<li>for</li>
+<li>while</li>
+<li>do while</li>
+<li>switch</li>
+<li>Prompt</li>
+<li>JS Beautify</li>
+<li>JS Snippets</li>
+<li>Copy Script</li>
+<li>Go to Line</li>
+<li>Save All Scripts</li>
+<li>Dumb Quotes</li>
+<li>Drafts Reference</li>
+<li>Save to Textastic Local Files</li>
+<li>- - - - - - - - - - - - - - - - - - - - - - -</li>
+<li>Condense Multiple Line Feeds</li>
+<li>Run RegEx Factory</li>
+<li>Text View and Switch Prompt</li>
+<li>Select Prompt</li>
+<li>Date Prompt</li>
+</ul>
+
+<h2>Search</h2>
+
+<ul>
+<li>Search on DuckDuckGo</li>
+<li>Search App Store</li>
+<li>Search iTunes</li>
+<li>Search on IMDB</li>
+<li>Search on Amazon</li>
+<li>Search on Google</li>
+<li>Search on YouTube</li>
+<li>Search on Google Images</li>
+<li>Search on Drafts Action Directory</li>
+<li>Search in 1Password</li>
+</ul>
+
+<h2>Keyboard-Numbers+</h2>
+
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+<li>6</li>
+<li>7</li>
+<li>8</li>
+<li>9</li>
+<li>0</li>
+<li>+</li>
+<li>-</li>
+<li>*</li>
+<li>/</li>
+<li>$</li>
+<li>#</li>
+<li>%</li>
+<li>@</li>
+<li>‽</li>
+</ul>
+
+<h2>CSV</h2>
+
+<ul>
+<li>Tabs to Comma</li>
+<li>Comma to Semicolon</li>
+<li>Semicolon to Comma</li>
+<li>CSV to JSON array</li>
+</ul>
+
+<h2>Processing</h2>
+
+<ul>
+<li>Inbox</li>
+<li>Archive</li>
+<li>Trash</li>
+<li><strong>Tags &amp; Flags:</strong></li>
+<li>Update tags&#8230;</li>
+<li>Rename tag&#8230;</li>
+<li>Flag</li>
+<li>Unflag</li>
+</ul>
+
+<h2>Markdown</h2>
+
+<ul>
+<li>Markdown Header (#)</li>
+<li>Outdent</li>
+<li>Indent</li>
+<li>Markdown List</li>
+<li>Toggle numbered lists</li>
+<li>Tasks</li>
+<li>List separator</li>
+<li>Markdown Bold (**)</li>
+<li>Markdown Emphasis (_)</li>
+<li>Markdown Quotation (&gt;)</li>
+<li>Markdown Link</li>
+<li>Dark-Light Preview</li>
+<li><strong>:</strong></li>
+</ul>
+
+<h2>Draft Tools</h2>
+
+<ul>
+<li>Workspace selection</li>
+<li>Keyboard switch</li>
+<li>Dark-Light Preview</li>
+<li><strong>:</strong></li>
+<li>Add Tag</li>
+<li>Toggle flag</li>
+<li>Toggle focus</li>
+<li>Draft info</li>
+<li>Share</li>
+<li>Trash</li>
+</ul>
+
+<h2>Apps</h2>
+
+<ul>
+<li>Mail</li>
+<li>Markdown Mail</li>
+<li>Message</li>
+<li>WhatsApp</li>
+<li>Tasks in Todoist</li>
+<li>Tasks in Todoist (Mercado)</li>
+<li>Send to Bear</li>
+<li>Append to Bear Journal</li>
+<li>Interact Scratchpad</li>
+<li>Save to OneDrive</li>
+<li>Save to OneDrive as&#8230;</li>
+<li>Append to OneDrive Journal</li>
+<li>Save to Dropbox</li>
+<li>Append to Dropbox Journal</li>
+<li>Save to Google Drive</li>
+<li>Append to Google Drive Journal</li>
+<li>Append to iCloud Journal</li>
+<li>Search in 1Password</li>
+<li>Tweet</li>
+<li>Tweet with Twitter app</li>
+<li>List in Reminders</li>
+<li>Reminder</li>
+</ul>
+
+<h2>Actions</h2>
+
+<ul>
+<li>New draft</li>
+<li>Web Search</li>
+<li>Group message</li>
+<li>Event</li>
+<li>Reminder</li>
+<li>Tools&#8230;</li>
+<li>Paste</li>
+<li>Share</li>
+</ul>
+
+<h2>Draft Tools</h2>
+
+<ul>
+<li>Workspace selection</li>
+<li>Add Tag</li>
+<li>Toggle flag</li>
+<li>Toggle focus</li>
+<li>Draft info</li>
+<li>Dark-Light Preview</li>
+<li>Share</li>
+</ul>
+
+<h2>dateProcessing</h2>
+
+<ul>
+<li>getHH:MM</li>
+<li>getHH:MM:SS</li>
+<li>getYYYY-MM-DD</li>
+<li>getYYYYMMDD</li>
+<li>getDD.MM.YYYY</li>
+<li>getYYYY/MM/DD</li>
+<li>getDD/MM/YYYY</li>
+<li>parseDateString</li>
+<li>testDateParser</li>
+<li>include Action → copy this to your action group</li>
+</ul>
+
+<h2>Syntax</h2>
+
+<ul>
+<li>Markdown syntax</li>
+<li>Javascript syntax</li>
+<li>TaskPaper syntax</li>
+<li>Simple list syntax</li>
+<li>Plain text syntax</li>
+<li>+Focus</li>
+<li>-Focus</li>
+<li>+Link Mode</li>
+<li>-Link Mode</li>
+<li>Syntax ← ← ← (Can be moved to a keyboard)</li>
+</ul>
+
+<h2>OneDrive</h2>
+
+<ul>
+<li>Save to OneDrive</li>
+<li>Append to OneDrive Journal</li>
+<li>OneDrive Scripting Example</li>
+</ul>
+
+<h2>JavaScript</h2>
+
+<ul>
+<li>New Code Draft</li>
+<li>var</li>
+<li>=</li>
+<li>if</li>
+<li>else</li>
+<li>prompt</li>
+<li>Smart quotes</li>
+<li>Smart Parentheses</li>
+<li>Smart Braces</li>
+<li>Smart Brackets</li>
+<li>Comment</li>
+<li>Indent</li>
+<li>Outdent</li>
+<li>•••••</li>
+<li>Action Directory</li>
+<li>Save All Scripts</li>
+<li>Drafts Scripting Wiki</li>
+<li>Drafts Documentation</li>
+</ul>
+
+<h2>Action Scripting</h2>
+
+<ul>
+<li>New Code Draft</li>
+<li>Go to Line</li>
+<li>⸁ Smart Braces</li>
+<li>⸁ Smart Code</li>
+<li>⸁ Smart Brackets</li>
+<li>⸁ Smart Parentheses</li>
+<li>if</li>
+<li>else</li>
+<li>prompt</li>
+<li>⸁ Indent</li>
+<li>⸁ Outdent</li>
+<li>Comment</li>
+<li>⸁ Time/Date…</li>
+<li>Encode/Decode</li>
+<li>⸁ Clipboard…</li>
+<li>Save to Files as&#8230;</li>
+<li>Save All Scripts</li>
+<li>Action Directory</li>
+<li>Drafts Documentation</li>
+<li>Drafts Scripting Wiki</li>
+<li>- - - - - - - - - - - - - - - - - - - - - - -</li>
+<li>Text View and Switch Prompt</li>
+<li>Select Prompt</li>
+<li>Date Prompt</li>
+<li>Drafts 5 JavaScript API list</li>
+</ul>
+
+<h2>Actions-Apps</h2>
+
+<ul>
+<li>Event in Fantastical</li>
+<li>Events in Fantastical</li>
+<li>Reminder in Fantastical</li>
+<li>Send to Cardhop</li>
+<li>Task in Things</li>
+<li>Task in OmniFocus</li>
+<li>Tasks in OmniFocus</li>
+<li>Task in Todoist App</li>
+<li>Day One</li>
+<li>New Note in Evernote</li>
+<li>Tweet with Tweetbot</li>
+<li>Tweet with Twitterrific</li>
+<li>Tweet with Twitter app</li>
+<li>Lookup in Terminology</li>
+<li>Send to Interact Scratchpad</li>
+<li>Send to Drafts 4</li>
+<li>Send to DEVONthink</li>
+<li>Send to Bear</li>
+<li>Append to Bear Journal</li>
+<li>Sheet in Ulysses</li>
+<li>Send to Byword</li>
+<li>Save to Evernote (Text)</li>
+<li>Send to Editorial</li>
+<li>Send to Micro.blog</li>
+<li>Send to Agenda Inbox</li>
+<li>Blink Affiliate Link</li>
+<li>Send to Airmail</li>
+<li>Send to Gmail</li>
+<li>Inbox by Gmail</li>
+<li>Send to 1Writer</li>
+<li>Send to WhatsApp</li>
+<li>Task in Nozbe</li>
+<li>Smart Add in Good Task</li>
+<li>Compose in Newton</li>
+<li>Send to Keep It</li>
+</ul>
+
+<h2>Action Scripting</h2>
+
+<ul>
+<li>New Code Draft</li>
+<li>Go to Line</li>
+<li>⸁ Smart Braces</li>
+<li>⸁ Smart Code</li>
+<li>⸁ Smart Brackets</li>
+<li>⸁ Smart Parentheses</li>
+<li>if</li>
+<li>else</li>
+<li>prompt</li>
+<li>⸁ Indent</li>
+<li>⸁ Outdent</li>
+<li>Comment</li>
+<li>⸁ Time/Date…</li>
+<li>Encode/Decode</li>
+<li>⸁ Clipboard…</li>
+<li>Save to Files as&#8230;</li>
+<li>Save All Scripts</li>
+<li>Action Directory</li>
+<li>Drafts Documentation</li>
+<li>Drafts Scripting Wiki</li>
+<li>- - - - - - - - - - - - - - - - - - - - - - -</li>
+<li>Text View and Switch Prompt</li>
+<li>Select Prompt</li>
+<li>Date Prompt</li>
+<li>Drafts 5 JavaScript API list</li>
+</ul>
+
+<h2>Tools</h2>
+
+<ul>
+<li><strong>Change Selection:</strong></li>
+<li>UPPER</li>
+<li>lower</li>
+<li>Title</li>
+<li>Sort</li>
+<li>Straighten Quotes</li>
+<li>Strip Diacritics</li>
+<li>Strip Line Feed</li>
+<li>Trim Whitespace</li>
+<li>Smart Parentheses</li>
+<li>Smart Brackets</li>
+<li>Smart Braces</li>
+<li><strong>With Options:</strong></li>
+<li>Change Case&#8230;</li>
+<li>Sort Lines&#8230;</li>
+<li>Encode&#8230;</li>
+<li>Decode&#8230;</li>
+</ul>
+
+<h2>Basic</h2>
+
+<ul>
+<li>Copy</li>
+<li>Share</li>
+<li>Mail</li>
+<li>Message</li>
+<li>Tweet</li>
+<li>Google Search</li>
+<li>Event</li>
+<li>Send to Reminders</li>
+<li>List in Reminders</li>
+<li>Print - Markdown</li>
+<li>Print - Plain Text</li>
+<li><strong>Services:</strong></li>
+<li>Save to Files</li>
+<li>Save to Files as&#8230;</li>
+<li>Save to iCloud Drive</li>
+<li>Append to iCloud Journal</li>
+<li>Save to Dropbox</li>
+<li>Append to Dropbox Journal</li>
+<li>Save to Evernote</li>
+<li>Append to Evernote Journal</li>
+<li>Evernote as Todos</li>
+<li>Save to OneDrive</li>
+<li>Append to OneDrive Journal</li>
+<li>Save to OneNote</li>
+<li>Append to OneNote Journal</li>
+<li>Save to Google Drive</li>
+<li>Save as Google Doc</li>
+<li>Append to Google Drive Journal</li>
+<li>Post to WordPress</li>
+<li>Save to Box</li>
+<li>Append to Box Journal</li>
+<li><strong>Apps:</strong></li>
+</ul>
+
+<h2>Keyboard-Numbers+</h2>
+
+<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+<li>6</li>
+<li>7</li>
+<li>8</li>
+<li>9</li>
+<li>0</li>
+<li>+</li>
+<li>-</li>
+<li>*</li>
+<li>/</li>
+<li>$</li>
+<li>#</li>
+<li>%</li>
+<li>@</li>
+<li>‽</li>
+</ul>
+
+<h2>JavaScript</h2>
+
+<ul>
+<li>New Code Draft</li>
+<li>var</li>
+<li>=</li>
+<li>if</li>
+<li>else</li>
+<li>prompt</li>
+<li>Smart quotes</li>
+<li>Smart Parentheses</li>
+<li>Smart Braces</li>
+<li>Smart Brackets</li>
+<li>Comment</li>
+<li>Indent</li>
+<li>Outdent</li>
+<li>•••••</li>
+<li>Action Directory</li>
+<li>Save All Scripts</li>
+<li>Drafts Scripting Wiki</li>
+<li>Drafts Documentation</li>
+</ul>
+
+<h2>TaskPaper</h2>
+
+<ul>
+<li>New TaskPaper Draft</li>
+<li><strong>Items:</strong></li>
+<li>New Task</li>
+<li>New Note</li>
+<li><strong>Tagging:</strong></li>
+<li>Toggle @done</li>
+<li>Toggle @today</li>
+<li>Toggle @due</li>
+<li>Toggle @start</li>
+<li><strong>Utility:</strong></li>
+<li>Remove @tags</li>
+<li>Archive @done</li>
+</ul>
+
+<h2>todoistQuickActionGroup</h2>
+
+<ul>
+<li>setApiTokenAndPublishMultipleTasks</li>
+<li>setApiTokenAndPublishSingleTask</li>
+<li>InboxTaskWithTagsFromPrompt</li>
+<li>InboxTaskWithPredefinedTagsList</li>
+<li>InboxEachLine</li>
+<li>InboxTaskWithPriorityFromPrompt</li>
+<li>InboxTaskDueToday</li>
+<li>InboxDraftTitleWithInternalUrl</li>
+</ul>
+
+<h2>Examples (Mac): AppleScript &amp; Shell Script</h2>
+
+<ul>
+<li>AppleScript: Show Draft</li>
+<li>AppleScript: Handle Response</li>
+<li>AppleScript: Run From Script</li>
+<li>ShellScript: Bash Example</li>
+<li>ShellScript: Ruby Example</li>
+<li><strong>Demo:</strong></li>
+<li>New Draft with Safari Tabs</li>
+<li>Send to BBEdit</li>
+</ul>
+
+<h2>Roam Research</h2>
+
+<ul>
+<li>Draft to Roam formatting</li>
+<li>Create Roam link</li>
+<li>/today</li>
+</ul>
+
+<h2>Examples (Mac): AppleScript &amp; Shell Script</h2>
+
+<ul>
+<li>AppleScript: Show Draft</li>
+<li>AppleScript: Handle Response</li>
+<li>AppleScript: Run From Script</li>
+<li>ShellScript: Bash Example</li>
+<li>ShellScript: Ruby Example</li>
+<li><strong>Demo:</strong></li>
+<li>New Draft with Safari Tabs</li>
+<li>Send to BBEdit</li>
+</ul>
+
+<h2>CSV</h2>
+
+<ul>
+<li>Tabs to Comma</li>
+<li>Comma to Semicolon</li>
+<li>Semicolon to Comma</li>
+<li>CSV to JSON array</li>
+</ul>
+
+<h2>Searches</h2>
+
+<ul>
+<li>master search</li>
+<li>Google Search</li>
+<li>Amazon Search</li>
+<li>YouTube (app)</li>
+<li>IMDB Search</li>
+<li>DEVONsearch</li>
+<li>App Store</li>
+<li>Apple Maps</li>
+<li>Google Maps</li>
+<li>YouTube (web)</li>
+<li>DuckDuckGo</li>
+<li>Yelp Search</li>
+<li>Drafts Directory</li>
+</ul>
+
+<hr />
+
+<h1>Actions with Keyboard Shortcuts</h1>
+
+<pre>&#8679;S&nbsp;&nbsp;&nbsp;&nbsp;Save Version
+&#8679;^&#8997;C&nbsp;&nbsp;Decode... (copy) (copy)
+&#8679;S&nbsp;&nbsp;&nbsp;&nbsp;Save Version
+&#8679;C&nbsp;&nbsp;&nbsp;&nbsp;Decode... (copy) (copy)
+&#8679;S&nbsp;&nbsp;&nbsp;&nbsp;Save Version
+&#8679;C&nbsp;&nbsp;&nbsp;&nbsp;Decode... (copy) (copy)
+&#8679;S&nbsp;&nbsp;&nbsp;&nbsp;Save Version
+&#8679;C&nbsp;&nbsp;&nbsp;&nbsp;Decode... (copy) (copy)
+&#8679;&#8984;S&nbsp;&nbsp;&nbsp;One-Way Sync
+&#8984;G&nbsp;&nbsp;&nbsp;&nbsp;Find Next
+&#8679;&#8984;G&nbsp;&nbsp;&nbsp;Find Previous
+&#8984;E&nbsp;&nbsp;&nbsp;&nbsp;Enter Selection For Find
+&#8997;&#8984;F&nbsp;&nbsp;&nbsp;Show Find Window
+^&#8997;D&nbsp;&nbsp;&nbsp;Select Drafts to Link
+^&#8997;L&nbsp;&nbsp;&nbsp;Copy Markdown Link 
+^&#8997;N&nbsp;&nbsp;&nbsp;Link to New Draft
+^&#8997;K&nbsp;&nbsp;&nbsp;Find Draft to Link
+^&#8997;D&nbsp;&nbsp;&nbsp;Select Drafts to Link
+^&#8997;L&nbsp;&nbsp;&nbsp;Copy Markdown Link 
+^&#8997;N&nbsp;&nbsp;&nbsp;Link to New Draft
+^&#8997;K&nbsp;&nbsp;&nbsp;Find Draft to Link
+&#8984;R&nbsp;&nbsp;&nbsp;&nbsp;Run Editor JS 
+&#8984;/&nbsp;&nbsp;&nbsp;&nbsp;JS Comment
+&#8984;]&nbsp;&nbsp;&nbsp;&nbsp;JS Indent 
+&#8679;&#8984;]&nbsp;&nbsp;&nbsp;JS Outdent
+&#8679;&#8984;[&nbsp;&nbsp;&nbsp;Smart Braces
+&#8984;H&nbsp;&nbsp;&nbsp;&nbsp;Run RegEx Factory
+&#8679;D&nbsp;&nbsp;&nbsp;&nbsp;Inbox
+&#8679;A&nbsp;&nbsp;&nbsp;&nbsp;Archive
+&#8679;0&nbsp;&nbsp;&nbsp;&nbsp;Trash
+^&#8984;H&nbsp;&nbsp;&nbsp;Markdown Header (#)
+&#8984;[&nbsp;&nbsp;&nbsp;&nbsp;Outdent
+&#8984;]&nbsp;&nbsp;&nbsp;&nbsp;Indent
+&#8984;B&nbsp;&nbsp;&nbsp;&nbsp;Markdown Bold (**)
+&#8984;I&nbsp;&nbsp;&nbsp;&nbsp;Markdown Emphasis (_)
+&#8997;C&nbsp;&nbsp;&nbsp;&nbsp;Tools...
+^[&nbsp;&nbsp;&nbsp;&nbsp;Create Roam link
+^&#8984;&nbsp;&nbsp;&nbsp;/today</pre>
+
+<hr />
+
+<h1>Current Draft Information</h1>
+
+<ul>
+<li><strong>UUID:</strong> 4A75FBBB-9438&#8211;4713&#8211;85C5&#8211;46527BF1A7D3</li>
+<li><strong>Title:</strong> 18033066170</li>
+<li><strong>Syntax:</strong> Markdown</li>
+<li><strong>Flagged:</strong> false</li>
+<li><strong>Archived:</strong> false</li>
+<li><strong>Trashed:</strong> false</li>
+<li><strong>Line Count:</strong> 1</li>
+<li><strong>Character Count:</strong> 11</li>
+<li><strong>Created:</strong> Sat Apr 24 2021 07:08:26 GMT-0400 (EDT)</li>
+<li><strong>Modified:</strong> Sat Apr 24 2021 07:13:17 GMT-0400 (EDT)</li>
+<li><strong>Versions:</strong> 1</li>
+<li><strong>Tags:</strong> derek | call forward | meta</li>
+<li><strong>Navigation Markers:</strong></li>
+</ul>
+
+<hr />
+
+<h1>Current Draft&#8217;s Versions</h1>
+
+<ul>
+<li><strong>Sat Apr 24 2021 07:11:08 GMT-0400 (EDT):</strong> 11 characters in 1 lines - (1D1C9B0F-E228&#8211;4859-B2A4&#8211;155C133177DA)</li>
+</ul>
+
+<hr />
+
+<h1>Current Draft Content</h1>
+
+<pre><code class="plaintext">18033066170
+</code></pre>
+
+<hr />
+
+<p><strong>Generated at:</strong> <span style="font-family:courier">Sat Apr 24 2021 07:13:37 GMT-0400 (EDT)</span><br>
+<strong>Generated by:</strong> <span style="font-family:courier">RECON-06</span></p>
+
+</body>
+</html>
+
+
+</body></html>
